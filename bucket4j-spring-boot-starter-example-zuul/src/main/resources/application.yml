@@ -26,5 +26,5 @@ bucket4j:
 zuul:
   routes:
     myservice:
-      url: http://localhost:8090
+      url: http://localhost:${server.port:8080}
     
